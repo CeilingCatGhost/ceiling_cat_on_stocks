@@ -1,0 +1,2 @@
+module QuandlInterfaceHelper
+end
