@@ -1,17 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  ticker_symbol: MyString
-  comp_name: MyString
+  ticker_symbol: MyStringA
+  comp_name: MyStringA
   founded_date: 2015-10-28
   ipo_date: 2015-10-28
-  sector: MyString
-  industry: MyString
+  sector: MyStringa
+  industry: MyStringa
 
 two:
-  ticker_symbol: MyString
-  comp_name: MyString
+  ticker_symbol: MyStringB
+  comp_name: MyStringB
   founded_date: 2015-10-28
   ipo_date: 2015-10-28
-  sector: MyString
-  industry: MyString
+  sector: MyStringb
+  industry: MyStringb

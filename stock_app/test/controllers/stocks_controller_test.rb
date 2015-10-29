@@ -18,7 +18,7 @@ class StocksControllerTest < ActionController::TestCase
 
   test "should create stock" do
     assert_difference('Stock.count') do
-      post :create, stock: { comp_name: @stock.comp_name, founded_date: @stock.founded_date, industry: @stock.industry, ipo_date: @stock.ipo_date, sector: @stock.sector, ticker_symbol: @stock.ticker_symbol }
+      post :create, stock: { comp_name: @stock.comp_name, founded_date: @stock.founded_date, industry: @stock.industry, ipo_date: @stock.ipo_date, sector: @stock.sector, ticker_symbol: "UNQU" }
     end
 
     assert_redirected_to stock_path(assigns(:stock))
