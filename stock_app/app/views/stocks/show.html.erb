@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ticker symbol:</strong>
+  <%= @stock.ticker_symbol %>
+</p>
+
+<p>
+  <strong>Comp name:</strong>
+  <%= @stock.comp_name %>
+</p>
+
+<p>
+  <strong>Founded date:</strong>
+  <%= @stock.founded_date %>
+</p>
+
+<p>
+  <strong>Ipo date:</strong>
+  <%= @stock.ipo_date %>
+</p>
+
+<p>
+  <strong>Sector:</strong>
+  <%= @stock.sector %>
+</p>
+
+<p>
+  <strong>Industry:</strong>
+  <%= @stock.industry %>
+</p>
+
+<%= link_to 'Edit', edit_stock_path(@stock) %> |
+<%= link_to 'Back', stocks_path %>
