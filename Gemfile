@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails', '4.2.4'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -46,6 +46,9 @@ group :development, :test do
 
   # Set up environment variables
   gem 'dotenv-rails'
+
+  # Add quandl gem for accessing stock data
+  gem 'quandl'
 end
 
 group :production do
